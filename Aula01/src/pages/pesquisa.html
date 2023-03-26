@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps para o jogo.</title>
+</head>
+<body>
+    <main>
+        <h1>Um App para Duelistas</h1>
+        <p>
+            A maior dificudade do jogo é encontrar jogadores em cidades do interior onde não existem lojas oficiais, pensando
+            nisso, responda o formulário a baixo para contribuir com a criação de um App voltado a duelistas e definir quais
+            funcionalidades podem ser úteis para a aplicação.
+        </p>
+        <form action="Receber-Respostas">
+            <label for="cidade">Cidade</label> 
+            <br>
+            <input type="text" id="cidade" name="cidade">
+            <br>
+            <label for="regiao">Região</label>
+            <br>
+            <select id="regiao" name="regiao">
+                <option value="Centro-Oeste">Centro-Oeste</option>
+                <option value="Nordeste">Nordeste</option>
+                <option value="Norte">Norte</option>
+                <option value="Sudeste">Sudeste</option>
+                <option value="Sul">Sul</option>
+            </select>
+            <p>Qual é a maior dificuldade de jogar Yu-Gi-Oh! na sua cidade?</p>
+            <input type="radio" name="dificuldade" id="dificuldade" value="Encontrar-Oponentes">
+            <label for="dificudade">Encontrar oponentes</label>
+            <input type="radio" name="dificuldade" id="dificuldade" value="Sem-Loja">
+            <label for="dificudade">Não existe uma loja oficial</label>
+            <input type="radio" name="dificuldade" id="dificuldade" value="Magic">
+            <label for="dificudade">As pessoas preferem Magic</label>
+            <p>Qual é o formato mais popular na sua cidade?</p>
+            <input type="radio" name="formato" id="formato" value="TCG">
+            <label for="formato">TCG!</label>
+            <input type="radio" name="formato" id="formato" value="Speed-Duel">
+            <label for="formato">Speed Duel</label>
+            <input type="radio" name="formato" id="formato" value="Rush-Duel">
+            <label for="formato">Rush Duel</label>
+            <p>Quais funcionalidades de um App podem ajudar mais a jogar Yu-Gi-Oh!??</p>
+            <input type="checkbox" name="funcionalidades" id="Encontrar-Oponentes">
+            <label for="funcionalidades">Encontrar Duelistas</label>
+            <input type="checkbox" name="funcionalidades" id="Encontrar-Lojas">
+            <label for="funcionalidades">Encontrar Lojas Proximas</label>
+            <input type="checkbox" name="funcionalidades" id="Cards">
+            <label for="funcionalidades">Consultar lista de Cards</label>
+            <br>
+            <input type="checkbox" name="funcionalidades" id="Pontos">
+            <label for="funcionalidades">Contar Pontos de Vida</label>
+            <input type="checkbox" name="funcionalidades" id="Desejos">
+            <label for="funcionalidades">Fazer uma lista de desejo de Cerds</label>
+            <input type="checkbox" name="funcionalidades" id="Comunidade">
+            <label for="funcionalidades">Comunidade de Duelistas</label>
+            <br>
+            <label for="outros">O que mais seria útil para um App de duelista?</label> 
+            <br>
+            <input type="text" id="outros" name="outros">
+        </form>
+    </main>
+</body>
+</html>
