@@ -1,0 +1,61 @@
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../imagens/IMG8.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-color: purple; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 48px;
+    text-align: center;
+    color: purple;
+    margin: 60px;
+}
+.form{
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 6px 0px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+}
+.descricao{
+    font-size: 24px;
+    color: purple;
+}
+.label{
+    font-size: 18px;
+    font-weight: bold;
+    color: purple;
+}
+.inputText{
+    font-size: 18px;
+    color: purple;
+}
+.input{
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+    color: purple;
+    border-color: purple;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.inputTypeB{
+    height: 80px;
+    width: 100%;
+    margin: 10px 0;
+    color: purple;
+    border-color: purple;
+    border-width: 1px;
+    border-radius: 4px;
+}

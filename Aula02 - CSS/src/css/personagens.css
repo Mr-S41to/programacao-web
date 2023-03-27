@@ -1,0 +1,53 @@
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: purple;
+}
+.titulo{
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 60px;
+}
+.card{
+    margin: 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.cardHead{  
+    display: flex;
+    flex-direction: row;
+}
+.profile{
+    width: 180px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.monster{
+    width: 280px;
+    /* min-width: 160px; */
+    align-self: center;
+    margin: 0 20px;
+}
+.descricao{
+    margin: 20px;
+    font-size: 24px;
+}
+.cardTitle{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: purple;
+    margin: 80px;
+}
+.subTitle{
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.monsterName{
+    margin: 0 20px 20px;
+    font-size: 24px;
+    text-align: center; 
+}

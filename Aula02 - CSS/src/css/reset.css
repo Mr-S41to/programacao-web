@@ -1,0 +1,16 @@
+/* O arquivo reset serve para resetar as principais
+propriedades de estilo do projeto, nesse caso são links,
+listas e propriedades de espaçamento. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

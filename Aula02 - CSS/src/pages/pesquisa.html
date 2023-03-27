@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps para o jogo.</title>
+    <link rel="stylesheet" href="../css/pesquisa.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 class="titulo">Um App para Duelistas!</h1>
+            <p class="descricao">
+                A maior dificudade do jogo é encontrar jogadores em cidades do interior onde não existem lojas oficiais,
+                pensando
+                nisso, responda o formulário a baixo para contribuir com a criação de um App voltado a duelistas e
+                definir quais
+                funcionalidades podem ser úteis para a aplicação.
+            </p>
+            <form action="Receber-Respostas" class="form">
+                <label for="cidade" class="label">Cidade</label>
+                <br>
+                <input type="text" id="cidade" name="cidade" class="input">
+                <br>
+                <br>
+                <label for="regiao" class="label">Região</label>
+                <br>
+                <select id="regiao" name="regiao" class="input">
+                    <option value="Centro-Oeste" class="inputText">Centro-Oeste</option>
+                    <option value="Nordeste" class="inputText">Nordeste</option>
+                    <option value="Norte" class="inputText">Norte</option>
+                    <option value="Sudeste" class="inputText">Sudeste</option>
+                    <option value="Sul" class="inputText">Sul</option>
+                </select>
+                <br>
+                <br>
+                <p class="label" class="inputText">Qual é a maior dificuldade de jogar Yu-Gi-Oh! na sua cidade?</p>
+                <input type="radio" name="dificuldade" id="dificuldade" value="Encontrar-Oponentes">
+                <label for="dificudade" class="inputText">Encontrar oponentes</label>
+                <input type="radio" name="dificuldade" id="dificuldade" value="Sem-Loja">
+                <label for="dificudade" class="inputText">Não existe uma loja oficial</label>
+                <input type="radio" name="dificuldade" id="dificuldade" value="Magic">
+                <label for="dificudade" class="inputText">As pessoas preferem Magic</label>
+                <br>
+                <br>
+                <p class="label">Qual é o formato mais popular na sua cidade?</p>
+                <input type="radio" name="formato" id="formato" value="TCG">
+                <label for="formato" class="inputText">TCG!</label>
+                <input type="radio" name="formato" id="formato" value="Speed-Duel">
+                <label for="formato" class="inputText">Speed Duel</label>
+                <input type="radio" name="formato" id="formato" value="Rush-Duel">
+                <label for="formato" class="inputText">Rush Duel</label>
+                <br>
+                <br>
+                <p class="label">Quais funcionalidades de um App podem ajudar mais a jogar Yu-Gi-Oh!??</p>
+                <input type="checkbox" name="funcionalidades" id="Encontrar-Oponentes">
+                <label for="funcionalidades" class="inputText">Encontrar Duelistas</label>
+                <br>
+                <input type="checkbox" name="funcionalidades" id="Encontrar-Lojas">
+                <label for="funcionalidades" class="inputText">Encontrar Lojas Proximas</label>
+                <br>
+                <input type="checkbox" name="funcionalidades" id="Cards">
+                <label for="funcionalidades" class="inputText">Consultar lista de Cards</label>
+                <br>
+                <input type="checkbox" name="funcionalidades" id="Pontos">
+                <label for="funcionalidades" class="inputText">Contar Pontos de Vida</label>
+                <br>
+                <input type="checkbox" name="funcionalidades" id="Desejos">
+                <label for="funcionalidades" class="inputText">Fazer uma lista de desejo de Cerds</label>
+                <br>
+                <input type="checkbox" name="funcionalidades" id="Comunidade">
+                <label for="funcionalidades" class="inputText">Comunidade de Duelistas</label>
+                <br>
+                <br>
+                <label for="outros" class="label">O que mais seria útil para um App de duelista?</label>
+                <br>
+                <input type="text" id="outros" name="outros" class="inputTypeB">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
